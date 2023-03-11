@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <title>Eye Transit</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script type="module" src="script.js"></script>
+  </head>
+  <body>
+    <h1 class="center">PUV Finder</h1>
+    <div id="map"></div>
+
+    <div class="puv_panel">
+      <h2 class="center">PUV List</h2>
+      <button id="puv1" class="custom-btn btn-1">PUV1</button> 
+      <button id="puv2" class="custom-btn btn-1">PUV2</button> 
+    </div>
+
+    
+
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB_eTOtg0_fQnBOz4QmAXM8SlHRFAcvhjY&callback=initMap&v=weekly"
+      defer
+    ></script>
+    <script src="https://www.gstatic.com/firebasejs/8.4.2/firebase.js"></script>
+
+    <script src="./fireConfig.js"></script>
+
+  </body>
+</html>

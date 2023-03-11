@@ -1,0 +1,57 @@
+
+ #map {
+    height: 90%;
+    width: 85%;
+  }
+  
+  body {
+    background-color: #9bbff4;
+  }
+
+  .center{
+    display: flex;
+    align-items: top;
+    justify-content: center;
+  }
+
+  .puv_panel {
+    position: absolute;
+    top: 65px;
+    right: 10px;
+    width: 170px;
+    height: 600px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+    background-color: #bbdaa4;
+    border: none;
+    border-radius: 10px;
+  }
+
+  .custom-btn {
+    width: 170px;
+    height: 40px;
+    padding: 30px 50px;
+    margin-bottom: 20px;
+    border: 2px solid #000;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    color: Black;
+  }
+  
+  /* 1 */
+  .btn-1 {
+    transition: all 0.3s ease;
+  }
+  .btn-1:hover {
+     box-shadow:
+     -7px -7px 20px 0px #fff9,
+     -4px -4px 5px 0px #fff9,
+     7px 7px 20px 0px #0002,
+     4px 4px 5px 0px #0001;
+  }
